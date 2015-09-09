@@ -5,8 +5,14 @@
     <title></title>
 </head>
 <body>
+{% for object in objects %}
+    <p>{{ object.title }}</p>
+    <img src="{{ object.image }}">
+{% endfor %}
 
-
+<footer>
+    <h1>Подвал</h1>
+</footer>
 
 
 </body>
